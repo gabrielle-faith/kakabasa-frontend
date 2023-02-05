@@ -1,7 +1,7 @@
 import React, { useId } from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { motion, Variants } from 'framer-motion'
-import girl_reading_book from '@/assets/image/undraw_Reading_time_re_phf7.png'
+// import girl_reading_book from '@/assets/image/undraw_Reading_time_re_phf7.png'
 import projectInfo from 'project-info'
 
 const titleVariants: Variants = {
@@ -51,12 +51,3 @@ const HeroContainer = (): React.ReactElement => {
 }
 
 export default HeroContainer
-
-/* <div className="h-96 w-96">
-        <Image
-          src={girl_reading_book}
-          alt="girl reading a book"
-          style={{ width: 'auto', height: 'auto' }}
-          priority
-        />
-      </div> */

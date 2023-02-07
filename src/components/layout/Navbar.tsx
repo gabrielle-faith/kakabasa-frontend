@@ -2,6 +2,7 @@ import React from 'react'
 import { motion, Variants } from 'framer-motion'
 import { FaUserCircle } from 'react-icons/fa'
 import { IoBookSharp } from 'react-icons/io5'
+import ChangeTheme from '../global/ChangeTheme'
 
 const containerVariants: Variants = {
   initial: {
@@ -33,15 +34,16 @@ const Navbar = (): React.ReactElement => {
       >
         <IoBookSharp />
       </motion.button>
-      <motion.button
+      {/* <motion.button
         type="button"
-        className="ml-auto h-fit w-fit text-custom_primary"
+        className="h-fit w-fit text-custom_primary"
         initial={{ x: 100, scale: 1 }}
         animate={{ x: 0, transition: { type: 'spring' } }}
         whileHover={{ scale: 1.2 }}
       >
         <FaUserCircle />
-      </motion.button>
+      </motion.button> */}
+      <ChangeTheme />
     </motion.div>
   )
 }

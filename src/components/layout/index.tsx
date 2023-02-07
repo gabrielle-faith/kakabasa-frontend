@@ -7,10 +7,10 @@ const Layout = ({
   children,
 }: ILayoutProps): React.ReactElement => {
   return (
-    <div>
+    <>
       {isNavbarVisible && <Navbar />}
-      <main>{children}</main>
-    </div>
+      <main className="h-full">{children}</main>
+    </>
   )
 }
 

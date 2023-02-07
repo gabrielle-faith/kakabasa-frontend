@@ -26,7 +26,7 @@ const HeroContainer = (): React.ReactElement => {
   const id = useId()
 
   return (
-    <div className="max-w-screen h-screen flex flex-col items-center justify-center">
+    <div className="h-full flex flex-col items-center justify-center">
       <motion.div
         initial="initial"
         animate="animate"
